@@ -36,9 +36,6 @@ class RichTextView extends StatefulWidget {
   /// if included, will show a view less text
   final String? viewLessText;
 
-  /// the view more and view less text's style
-  final TextStyle? viewMoreLessStyle;
-
   final List<ParserType> supportedTypes;
   final RegexOptions regexOptions;
   final TextAlign textAlign;
